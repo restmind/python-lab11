@@ -3,14 +3,14 @@ class Aircraft:
                  production_year=0, total_capacity_of_passengers=0,
                  tonnage_in_tons=0, type_of_engine='N/A', flight_range_in_km=0.0,
                  price_of_flight_in_uan=0.0):
-        self._producer_name = producer_name
-        self._name_of_aircraft_model = name_of_aircraft_model
-        self._production_year = production_year
-        self._total_capacity_of_passengers = total_capacity_of_passengers
-        self._tonnage_in_tons = tonnage_in_tons
-        self._type_of_engine = type_of_engine
-        self._flight_range_in_km = flight_range_in_km
-        self._price_of_flight_in_uan = price_of_flight_in_uan
+        self.producer_name = producer_name
+        self.name_of_aircraft_model = name_of_aircraft_model
+        self.production_year = production_year
+        self.total_capacity_of_passengers = total_capacity_of_passengers
+        self.tonnage_in_tons = tonnage_in_tons
+        self.type_of_engine = type_of_engine
+        self.flight_range_in_km = flight_range_in_km
+        self.price_of_flight_in_uan = price_of_flight_in_uan
 
     def __str__(self):
         return "Producer name: {}\n" \
