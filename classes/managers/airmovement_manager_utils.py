@@ -82,6 +82,8 @@ if __name__ == "__main__":
                                            flight_range_in_km=2500.0, price_of_flight_in_uan=1200.0),
                          TransportAirplane(name_of_aircraft_model="Wizzair", total_capacity_of_passengers=0,
                                            flight_range_in_km=3000.0, price_of_flight_in_uan=500.0)]
+
+
     airmovementManagerUtils = AirmovementManagerUtils()
     doctest.testmod(verbose=True, extraglobs={"obj": AirmovementManagerUtils,
                                               "list_of": list_of_aircrafts})
